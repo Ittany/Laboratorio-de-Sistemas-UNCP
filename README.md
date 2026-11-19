@@ -238,8 +238,8 @@ Mensajes de validación por stock insuficiente y ausencia de fecha requerida.
 
 ![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura21.png)
 
-### 8.6.4. EVIDENCIA COMPLEMENTARIA 1
+### 8.6.4. EVIDENCIA DE COOKIES
 
-Captura adicional del funcionamiento del sistema.
+Captura de COKKIES EN INSPECCIONAR
 
 ![8.6.4. Evidencia complementaria 2](capturas/Captura20.png)
