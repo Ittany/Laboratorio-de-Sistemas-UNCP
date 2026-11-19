@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Iniciar sesión{% endblock %}
+{% block content %}
+<div class="login-layout"><div class="card login-card"><div class="eyebrow eyebrow-dark">ACCESO INSTITUCIONAL</div><h1>Iniciar sesión</h1><p>Ingrese con la cuenta de usuario habilitada en el sistema.</p>
+{% if form.errors %}<div class="flash flash-error" role="alert">Usuario o contraseña incorrectos. Verifique sus datos.</div>{% endif %}
+<form method="post">{% csrf_token %}<input type="hidden" name="next" value="{{ next }}"><div class="field"><label for="id_username">Usuario</label><input id="id_username" name="username" autocomplete="username" required autofocus placeholder="Usuario UNCP"></div><div class="field"><label for="id_password">Contraseña</label><input type="password" id="id_password" name="password" autocomplete="current-password" required placeholder="Contraseña"></div><button class="btn btn-primary btn-block" type="submit">Ingresar al sistema</button></form><div class="login-note">Acceso exclusivo para docentes, asistentes y administradores autorizados.</div></div><div class="login-aside"><span>FACULTAD DE INGENIERÍA DE SISTEMAS</span><h2>Administración segura del inventario universitario.</h2><p>Control de préstamos, registro de devoluciones y seguimiento de equipos de laboratorio.</p></div></div>
+{% endblock %}

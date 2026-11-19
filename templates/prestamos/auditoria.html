@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Auditoría{% endblock %}
+{% block content %}
+<div class="page-heading"><div class="eyebrow eyebrow-dark">SEGURIDAD Y TRAZABILIDAD</div><h1>Registro de auditoría</h1><p>Últimos 100 eventos registrados, accesibles exclusivamente al administrador.</p></div>
+<div class="table-wrap card"><table><thead><tr><th>Fecha y hora</th><th>Usuario</th><th>Dirección IP</th><th>Acción</th><th>Detalle</th></tr></thead><tbody>{% for a in eventos %}<tr><td>{{ a.fecha_hora|date:'d/m/Y H:i:s' }}</td><td>{{ a.usuario.username|default:'Sin usuario' }}</td><td>{{ a.ip|default:'—' }}</td><td><strong>{{ a.accion }}</strong></td><td>{{ a.detalle }}</td></tr>{% empty %}<tr><td colspan="5" class="empty">Todavía no hay eventos de auditoría.</td></tr>{% endfor %}</tbody></table></div>
+{% endblock %}

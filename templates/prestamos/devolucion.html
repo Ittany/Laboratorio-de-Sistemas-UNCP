@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Registrar devolución{% endblock %}
+{% block content %}
+<div class="page-heading"><div class="eyebrow eyebrow-dark">CONTROL DE DEVOLUCIONES</div><h1>Registrar devolución</h1><p>Inspeccione el equipo y registre su condición al retornar al laboratorio.</p></div>
+<div class="form-layout"><div class="card form-card"><div class="summary-bar"><strong>Préstamo #{{ prestamo.pk }}</strong><span>{{ prestamo.equipo.nombre }}</span><small>Docente: {{ prestamo.docente.get_full_name|default:prestamo.docente.username }} · {{ prestamo.cantidad }} unidad(es)</small></div>
+<form method="post" novalidate>{% csrf_token %}{% for field in form %}<div class="field"><label for="{{ field.id_for_label }}">{{ field.label }}</label>{{ field }}{% for error in field.errors %}<small class="form-error">{{ error }}</small>{% endfor %}</div>{% endfor %}<div class="form-actions"><button class="btn btn-primary" type="submit">Confirmar devolución</button><a href="{% url 'prestamos' %}" class="btn btn-outline">Regresar</a></div></form></div><aside class="info-card"><h3>Nota operativa</h3><p>Si el equipo retorna en mantenimiento o dado de baja, su estado de inventario se actualizará y dejará de estar disponible para nuevas solicitudes.</p></aside></div>
+{% endblock %}

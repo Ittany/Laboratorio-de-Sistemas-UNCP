@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block title %}Acceso restringido{% endblock %}
+{% block content %}
+<div class="error-page"><div class="eyebrow eyebrow-dark">ACCESO RESTRINGIDO</div><h1>403</h1><h2>Permiso insuficiente</h2><p>No tiene autorización para acceder a esta función.</p><a class="btn btn-primary" href="{% url 'inicio' %}">Regresar al catálogo</a></div>
+{% endblock %}

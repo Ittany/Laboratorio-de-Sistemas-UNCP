@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Reportes{% endblock %}
+{% block content %}
+<div class="page-heading"><div class="eyebrow eyebrow-dark">SEGUIMIENTO ACADÉMICO</div><h1>Reportes de uso</h1><p>Consolidado de préstamos por laboratorio y docente.</p></div>
+<div class="stat-grid two"><div class="stat-card"><span>Préstamos históricos</span><strong>{{ total }}</strong></div><div class="stat-card"><span>Devoluciones registradas</span><strong>{{ devoluciones }}</strong></div></div>
+<div class="two-columns section-gap"><section><h2>Préstamos por laboratorio</h2><div class="table-wrap card"><table><thead><tr><th>Laboratorio</th><th>Préstamos</th></tr></thead><tbody>{% for lab in por_laboratorio %}<tr><td>{{ lab.nombre }}</td><td>{{ lab.total }}</td></tr>{% empty %}<tr><td colspan="2">Sin datos</td></tr>{% endfor %}</tbody></table></div></section><section><h2>Préstamos por docente</h2><div class="table-wrap card"><table><thead><tr><th>Docente</th><th>Préstamos</th><th>Unidades</th></tr></thead><tbody>{% for item in por_docente %}<tr><td>{{ item.docente__first_name }} {{ item.docente__last_name }} <small class="muted">({{ item.docente__username }})</small></td><td>{{ item.total }}</td><td>{{ item.unidades }}</td></tr>{% empty %}<tr><td colspan="3">Sin datos</td></tr>{% endfor %}</tbody></table></div></section></div>
+{% endblock %}
