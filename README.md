@@ -236,10 +236,10 @@ Validación al alcanzar el máximo de tres préstamos o solicitudes vigentes.
 
 Mensajes de validación por stock insuficiente y ausencia de fecha requerida.
 
-![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura20.png)
+![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura21.png)
 
 ### 8.6.4. EVIDENCIA COMPLEMENTARIA 1
 
 Captura adicional del funcionamiento del sistema.
 
-![8.6.4. Evidencia complementaria 2](capturas/Captura21.png)
+![8.6.4. Evidencia complementaria 2](capturas/Captura20.png)
