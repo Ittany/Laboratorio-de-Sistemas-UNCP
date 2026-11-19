@@ -111,8 +111,141 @@ labprestamos_uncp/
   manage.py
   requirements.txt
   README.md
+  capturas/                    Evidencias de funcionamiento (21 imágenes)
 ```
 
 ## Evidencias
 
+Las siguientes capturas documentan el funcionamiento del Caso 1. Los archivos se ubican en la carpeta `capturas/` y se muestran en el mismo orden que las pruebas realizadas. Para que GitHub las renderice, deben conservar exactamente los nombres indicados (incluidas las mayúsculas y la extensión `.png`).
+
 Este proyecto **no incluye capturas ni evidencias** porque serán realizadas por la estudiante. Las vistas y el panel Django Admin permiten generar las capturas correspondientes a la guía.
+
+## 8. CASO 1: SISTEMA DE GESTIÓN DE PRÉSTAMOS DE EQUIPOS DE LABORATORIO
+
+Evidencias visuales de las funcionalidades y validaciones del sistema. Las capturas se almacenan en la carpeta `capturas/`.
+
+### 8.1. VISTA GENERAL
+
+Vista general del sistema de gestión de préstamos de equipos de laboratorio.
+
+![8.1. VISTA GENERAL](capturas/Captura01.png)
+
+### 8.1.1. INVENTARIO INSTITUCIONAL
+
+Visualización del inventario institucional y los equipos registrados.
+
+![8.1.1. INVENTARIO INSTITUCIONAL](capturas/Captura02.png)
+
+### 8.1.2. PRUEBA DE FILTROS
+
+Búsqueda y filtrado de equipos disponibles en el catálogo.
+
+![8.1.2. PRUEBA DE FILTROS](capturas/Captura03.png)
+
+### 8.1.3. USUARIOS DE PRUEBA
+
+Usuarios de prueba configurados para evaluar los diferentes roles del sistema.
+
+![8.1.3. USUARIOS DE PRUEBA](capturas/Captura04.png)
+
+### 8.2. INICIAR SESIÓN
+
+Formulario de autenticación de usuarios.
+
+![8.2. INICIAR SESIÓN](capturas/Captura05.png)
+
+### 8.2.1. PANEL DE CONTROL DE ADMINISTRADOR
+
+Panel principal del administrador con acceso a las funcionalidades de gestión.
+
+![8.2.1. PANEL DE CONTROL DE ADMINISTRADOR](capturas/Captura06.png)
+
+### 8.2.2. GESTIÓN DE PRÉSTAMOS: LISTADO HISTÓRICO
+
+Consulta del historial de préstamos registrados en el sistema.
+
+![8.2.2. GESTIÓN DE PRÉSTAMOS: LISTADO HISTÓRICO](capturas/Captura07.png)
+
+### 8.2.3. FILTRO
+
+Aplicación de filtros en el listado de préstamos.
+
+![8.2.3. FILTRO](capturas/Captura08.png)
+
+### 8.3. REPORTE DASHBOARD
+
+Panel de reportes y estadísticas de préstamos.
+
+![8.3. REPORTE DASHBOARD](capturas/Captura09.png)
+
+### 8.3.1. AUDITORÍA
+
+Registro de acciones del sistema para garantizar trazabilidad.
+
+![8.3.1. AUDITORÍA](capturas/Captura10.png)
+
+### 8.4. ACCESO INCORRECTO
+
+Validación de acceso y respuesta ante intentos no autorizados.
+
+![8.4. ACCESO INCORRECTO](capturas/Captura11.png)
+
+### 8.4.1. PANEL DOCENTE
+
+Panel de control correspondiente al rol docente.
+
+![8.4.1. PANEL DOCENTE](capturas/Captura12.png)
+
+### 8.4.2. MIS PRÉSTAMOS COMO DOCENTE: MÁXIMO 3 PENDIENTES
+
+Consulta de préstamos propios y límite de tres solicitudes o préstamos vigentes.
+
+![8.4.2. MIS PRÉSTAMOS COMO DOCENTE: MÁXIMO 3 PENDIENTES](capturas/Captura13.png)
+
+### 8.5. PANEL ASISTENTE
+
+Vista del asistente para gestionar entregas y devoluciones.
+
+![8.5. PANEL ASISTENTE](capturas/Captura14.png)
+
+### 8.5.1. DEVOLUCIÓN REGISTRADA
+
+Confirmación del registro de devolución de un equipo.
+
+![8.5.1. DEVOLUCIÓN REGISTRADA](capturas/Captura15.png)
+
+### 8.6. REGISTRO DE PRÉSTAMO
+
+Formulario para registrar una solicitud de préstamo.
+
+![8.6. REGISTRO DE PRÉSTAMO](capturas/Captura16.png)
+
+### 8.6.1. PRÉSTAMO EXITOSO
+
+Confirmación de un préstamo registrado correctamente.
+
+![8.6.1. PRÉSTAMO EXITOSO](capturas/Captura17.png)
+
+### 8.6.2. DOCENTE YA TIENE 3 PRÉSTAMOS
+
+Validación al alcanzar el máximo de tres préstamos o solicitudes vigentes.
+
+![8.6.2. DOCENTE YA TIENE 3 PRÉSTAMOS](capturas/Captura18.png)
+
+### 8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA
+
+Mensajes de validación por stock insuficiente y ausencia de fecha requerida.
+
+![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura19.png)
+
+### 8.6.4. EVIDENCIA COMPLEMENTARIA 1
+
+Captura adicional del funcionamiento del sistema.
+
+![8.6.4. Evidencia complementaria 1](capturas/Captura20.png)
+
+### 8.6.5. EVIDENCIA COMPLEMENTARIA 2
+
+Captura adicional del funcionamiento del sistema.
+
+![8.6.5. Evidencia complementaria 2](capturas/Captura21.png)
