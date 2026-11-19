@@ -182,13 +182,13 @@ Panel de reportes y estadísticas de préstamos.
 
 Registro de acciones del sistema para garantizar trazabilidad.
 
-![8.3.1. AUDITORÍA](capturas/Captura10.png)
+![8.3.1. AUDITORÍA](capturas/Captura20.png)
 
 ### 8.4. ACCESO INCORRECTO
 
 Validación de acceso y respuesta ante intentos no autorizados.
 
-![8.4. ACCESO INCORRECTO](capturas/Captura11.png)
+![8.4. ACCESO INCORRECTO](capturas/Captura10.png)
 
 ### 8.4.1. PANEL DOCENTE
 
@@ -218,34 +218,28 @@ Confirmación del registro de devolución de un equipo.
 
 Formulario para registrar una solicitud de préstamo.
 
-![8.6. REGISTRO DE PRÉSTAMO](capturas/Captura16.png)
+![8.6. REGISTRO DE PRÉSTAMO](capturas/Captura17.png)
 
 ### 8.6.1. PRÉSTAMO EXITOSO
 
 Confirmación de un préstamo registrado correctamente.
 
-![8.6.1. PRÉSTAMO EXITOSO](capturas/Captura17.png)
+![8.6.1. PRÉSTAMO EXITOSO](capturas/Captura18.png)
 
 ### 8.6.2. DOCENTE YA TIENE 3 PRÉSTAMOS
 
 Validación al alcanzar el máximo de tres préstamos o solicitudes vigentes.
 
-![8.6.2. DOCENTE YA TIENE 3 PRÉSTAMOS](capturas/Captura18.png)
+![8.6.2. DOCENTE YA TIENE 3 PRÉSTAMOS](capturas/Captura19.png)
 
 ### 8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA
 
 Mensajes de validación por stock insuficiente y ausencia de fecha requerida.
 
-![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura19.png)
+![8.6.3. STOCK INSUFICIENTE Y FECHA OMITIDA](capturas/Captura20.png)
 
 ### 8.6.4. EVIDENCIA COMPLEMENTARIA 1
 
 Captura adicional del funcionamiento del sistema.
 
-![8.6.4. Evidencia complementaria 1](capturas/Captura20.png)
-
-### 8.6.5. EVIDENCIA COMPLEMENTARIA 2
-
-Captura adicional del funcionamiento del sistema.
-
-![8.6.5. Evidencia complementaria 2](capturas/Captura21.png)
+![8.6.4. Evidencia complementaria 2](capturas/Captura21.png)
